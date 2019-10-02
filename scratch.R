@@ -13,7 +13,8 @@
 
 library(tidyverse)
 library(easyPubMed)
-library(rwos)
+library(readxl)
+library(tidyxl)
 
 AMC_pubmed_hedge <- '((80045[ad]) OR (80218[ad]) OR (80206[ad]) OR (80220[ad]) OR (80262[ad]) OR (ucdenver[ad] AND (Aurora or Anschutz)) OR  (uchealth[ad] AND (Aurora or Anschutz)) OR ("University of Colorado Health Sciences Center"[ad]) OR ("University of Colorado"[ad] AND (Medicine[ad] OR SOM[ad])) OR ("University of Colorado"[ad] AND ("College of Nursing"[ad] OR "school of nursing"[ad] OR CON[ad] or SON[ad])) OR ("University of Colorado"[ad] AND "Public Health"[ad]) OR ("University of Colorado"[ad] AND "Dental Medicine"[ad]) OR ("University of Colorado"[ad] AND Pharmacy[ad]) OR (Colorado[ad] AND Denver[ad] AND AMC[ad]) OR (Colorado[ad] AND Denver[ad] AND Anschutz[ad]) OR (Colorado[ad] AND Denver[ad] AND Aurora[ad]) OR ("University of Colorado AMC"[ad]) OR (CU[ad] AND Anschutz[ad]) OR (CU[ad] AND Aurora[ad]) OR (CU[ad] AND AMC[ad]) OR  ("University of Colorado Denver" AND Aurora[ad]) OR  (Fitzsimons[ad]) OR ("University of Colorado Denver"[ad] AND Aurora[ad]) OR ("University of Colorado Hospital"[ad]) OR ("University of Colorado Health"[ad]) OR ("UC Health"[ad]) OR  ("Children\'s Hospital"[ad] AND Aurora[ad]) OR ("Childrens Hospital"[ad] AND Aurora[ad]) OR ("The Children\'s Hospital"[ad] AND Aurora[ad]) OR ("Veterans Affairs"[ad] AND (Denver[ad] OR Aurora[ad])) OR  (VAMC[ad] AND (Denver[ad] OR Aurora[ad])) OR ("VA Eastern" AND Denver[ad]) OR  ("National Jewish"[ad]) OR (NJH[ad] AND Denver[ad]) OR ("Denver Health"[ad]))'
 SR_pubmed_hedge <- '(((systematic review[ti] OR systematic literature review[ti] OR systematic scoping review[ti] OR systematic narrative review[ti] OR systematic qualitative review[ti] OR systematic evidence review[ti] OR systematic quantitative review[ti] OR systematic meta-review[ti] OR systematic critical review[ti] OR systematic mixed studies review[ti] OR systematic mapping review[ti] OR systematic cochrane review[ti] OR systematic search and review[ti] OR systematic integrative review[ti]) NOT comment[pt] NOT (protocol[ti] OR protocols[ti])) NOT MEDLINE [subset]) OR (Cochrane Database Syst Rev[ta] AND review[pt]) OR systematic review[pt] '
@@ -55,6 +56,27 @@ piperformats <- xlsx_formats("pubmed-SRMA-AMC-2014-2018.xlsx")
 ### Password:  Welcome$287
 
 
+#You specify the target columns correctly:
+#    
+#    library(tidyr)
+#separate(DF, V1, paste0("X",1:8), sep="-")
+#
+#which gives:
+    
+#    X1     X2     X3     X4     X5     X6     X7     X8
+#1 Place1 Place2 Place2 Place4 Place2 Place3 Place5   <NA>
+#    2 Place7 Place7 Place7 Place7 Place7 Place7 Place7 Place7
+#3 Place1 Place1 Place1 Place1 Place3 Place5   <NA>   <NA>
+#    4 Place1 Place4 Place2 Place3 Place3 Place5 Place5   <NA>
+#    5 Place6 Place6   <NA>   <NA>   <NA>   <NA>   <NA>   <NA>
+#    6 Place1 Place2 Place3 Place4   <NA>   <NA>   <NA>   <NA>
+    
+#    If you don't know how many target columns you need beforehand, you can use:
+
+#> max(sapply(strsplit(as.character(DF$V1),'-'),length))
+#[1] 8
+
+#to extract the maximum number of parts (which is thus the number of columns you need).
 
 
 
