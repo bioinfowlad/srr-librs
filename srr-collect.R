@@ -14,6 +14,7 @@ library(magrittr)
 library(easyPubMed)
 library(rwos)
 library(fuzzyjoin)
+library(RefManageR)
 
 ## Hedges (Search Query Elements)
 # PubMed
@@ -88,5 +89,11 @@ ris_pubmed <- paste(pmidvector,collapse=" ") # copy and paste into Pubmed to get
 onlywos <- raw_papers_table %>% select(pmid,uid) %>% filter(is.na(pmid)) %>% select(uid)
 ris_wos <- gsub("\", \""," OR ",toString(onlywos))
 ris_wos2 <- gsub("\", \n\""," OR ",ris_wos) # copy and paste into Web of Science to get CIW file
+
+## RIS files were imported by CP into Endnote to manually curate and eliminate false positives
+## (see her notes) -- true positives go from 499 to 371 and CP exported them from Endnote as a bib file
+##
+# Import and tidy list from Endnote:
+truepos_table <- as.data.frame(ReadBib("new_export_files/BibTex_FinalSRProjectSet(371)_10032019.txt"))
 
 
