@@ -10,8 +10,10 @@
 
 # Initialize
 library(tidyverse)
+library(magrittr)
 library(easyPubMed)
 library(rwos)
+library(fuzzyjoin)
 
 ## Hedges (Search Query Elements)
 # PubMed
@@ -47,8 +49,44 @@ woslite_results <- wos_search(sid, wos_query)
 woslite_records <- wos_retrieve_all(woslite_results) 
 write.csv(woslite_records,file="datapull_woslite.csv",row.names=FALSE) # save to not have to regenerate all the time
 
+## If skipping the downloading part, run these before running the rest of the code below...
+# pubmed_table <- read.csv("datapull_pubmed.csv")
+# woslite_records <- read.csv("datapull_woslite.csv")
+
 ## Wrangle downloaded data
-# Make table with one row per paper and filter out wos records that are in pubmed
+# Make tables with one row per paper and filter out wos records that are in pubmed
 pubmed_papers <- unique(select(pubmed_table,one_of(c("pmid","doi","title","year","journal"))))
 woslite_papers <- select(woslite_records,one_of(c("uid","doi","title","year","journal")))
+pubmed_papers %<>% mutate(doi=as.character(doi),pmid,uid,title=as.character(title),year,journal=as.character(journal))
+pubmed_papers <- pubmed_papers[,c(2,1,6,3,4,5)] # reorder columns
+woslite_papers %<>% mutate(doi=as.character(doi),pmid="",uid=as.character(uid),title=as.character(title),year,journal=as.character(journal))
+woslite_papers <- woslite_papers[,c(2,6,1,3,4,5)] # reorder columns
+pubmed_papers %<>% mutate(doi=toupper(doi),title=toupper(title)) # to make matching easier
+woslite_papers %<>% mutate(doi=toupper(doi),title=toupper(title))  # to make matching easier
+
+## Deduping
+# Match by doi
+doimatch <- inner_join(select(pubmed_papers,-uid),select(woslite_papers,-pmid),by="doi")
+# Get not matching doi papers
+ante <- anti_join(select(pubmed_papers,-uid),select(woslite_papers,-pmid),by="doi")
+ante2 <- anti_join(select(woslite_papers,-pmid),select(pubmed_papers,-uid),by="doi")
+# Match by title
+titlematch <- stringdist_inner_join(ante,ante2,by="title")
+# Get not matching titles
+antetitle <- stringdist_anti_join(ante,ante2,by="title")
+antetitle2 <- stringdist_anti_join(ante2,ante,by="title")
+notitlenodoimatch <- full_join(antetitle,antetitle2,by=c("title","doi","year","journal"))
+# Combine all unique papers
+doimatch %<>% select(doi,pmid,uid,title=title.x,year=year.x,journal=journal.x)
+titlematch %<>% select(doi=doi.x,pmid,uid,title=title.x,year=year.x,journal=journal.x)
+notitlenodoimatch %<>% select(doi,pmid,uid,title,year,journal)
+raw_papers_table <- bind_rows(doimatch,titlematch,notitlenodoimatch)
+write.csv(raw_papers_table,"raw_papers_table.csv")
+# Create queries to get RIS files from pubmed and wos
+pmidvector <- raw_papers_table$pmid
+ris_pubmed <- paste(pmidvector,collapse=" ") # copy and paste into Pubmed to get RIS file
+onlywos <- raw_papers_table %>% select(pmid,uid) %>% filter(is.na(pmid)) %>% select(uid)
+ris_wos <- gsub("\", \""," OR ",toString(onlywos))
+ris_wos2 <- gsub("\", \n\""," OR ",ris_wos) # copy and paste into Web of Science to get CIW file
+
 
