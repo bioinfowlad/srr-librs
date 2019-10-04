@@ -15,6 +15,7 @@ library(easyPubMed)
 library(rwos)
 library(fuzzyjoin)
 library(RefManageR)
+library(readxl)
 
 ## Hedges (Search Query Elements)
 # PubMed
@@ -58,7 +59,7 @@ write.csv(woslite_records,file="datapull_woslite.csv",row.names=FALSE) # save to
 # Make tables with one row per paper and filter out wos records that are in pubmed
 pubmed_papers <- unique(select(pubmed_table,one_of(c("pmid","doi","title","year","journal"))))
 woslite_papers <- select(woslite_records,one_of(c("uid","doi","title","year","journal")))
-pubmed_papers %<>% mutate(doi=as.character(doi),pmid,uid,title=as.character(title),year,journal=as.character(journal))
+pubmed_papers %<>% mutate(doi=as.character(doi),pmid,uid="",title=as.character(title),year,journal=as.character(journal))
 pubmed_papers <- pubmed_papers[,c(2,1,6,3,4,5)] # reorder columns
 woslite_papers %<>% mutate(doi=as.character(doi),pmid="",uid=as.character(uid),title=as.character(title),year,journal=as.character(journal))
 woslite_papers <- woslite_papers[,c(2,6,1,3,4,5)] # reorder columns
@@ -98,7 +99,40 @@ truepos_table <- as.data.frame(ReadBib("FinalSRProjectSet(326)_10032019.bib"))
 
 # List relevant journals/years to get JIF info from elsewhere
 truepos_journals <- select(truepos_table, journal,year) %>%
-    mutate(journal=toupper(journal)) %>%
+    mutate(journal=toupper(journal), year=as.numeric(year)) %>%
     distinct() %>%
     arrange(journal,year)
 
+# Import and tidy JIF data from previous poster (Craven/Palmer/Piper)
+previous_srr_final <- read_excel("SRR_Final.xlsx")
+previous_srr_librarians <- read_excel("SRR_Librarians.xlsx",col_names=c("Author","Year","Title","Journal","JIF","Notes","JIFx"))
+
+previous_srr_final %<>% select(one_of(c("Journal","Year","JIF")))
+previous_srr_librarians %<>% select(one_of(c("Journal","Year","JIF")))
+
+previous_srr_final %<>% rename(journal=Journal,year=Year) %>%
+    mutate(journal=toupper(journal),JIF=as.numeric(JIF))
+
+previous_srr_librarians %<>% rename(journal=Journal,year=Year) %>%
+    mutate(journal=toupper(journal))
+
+previous_srr <- bind_rows(previous_srr_final,previous_srr_librarians) %>%
+    arrange(journal,year) %>%
+    distinct() %>%
+    filter(is.na(JIF)==FALSE) %>%
+    filter(is.na(journal)==FALSE) %>%
+    filter(is.na(year)==FALSE)
+
+# Import previous JIF data    
+
+truepos_journals_jifs <- left_join(truepos_journals,previous_srr,by=c("journal","year"))
+
+# Export joined data into a spreadsheet to fill the rest of the JIFs manually as we
+# don't have access to InCites API
+
+write_csv(truepos_journals_jifs,"truepos_journals_jifs")
+    
+    
+    
+    
+    
