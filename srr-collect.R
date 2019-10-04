@@ -94,6 +94,11 @@ ris_wos2 <- gsub("\", \n\""," OR ",ris_wos) # copy and paste into Web of Science
 ## (see her notes) -- true positives go from 499 to 371 and CP exported them from Endnote as a bib file
 ##
 # Import and tidy list from Endnote:
-truepos_table <- as.data.frame(ReadBib("new_export_files/BibTex_FinalSRProjectSet(371)_10032019.txt"))
+truepos_table <- as.data.frame(ReadBib("FinalSRProjectSet(326)_10032019.bib"))
 
+# List relevant journals/years to get JIF info from elsewhere
+truepos_journals <- select(truepos_table, journal,year) %>%
+    mutate(journal=toupper(journal)) %>%
+    distinct() %>%
+    arrange(journal,year)
 
