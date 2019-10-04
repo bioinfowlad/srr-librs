@@ -130,7 +130,7 @@ truepos_journals_jifs <- left_join(truepos_journals,previous_srr,by=c("journal",
 # Export joined data into a spreadsheet to fill the rest of the JIFs manually as we
 # don't have access to InCites API
 
-write_csv(truepos_journals_jifs,"truepos_journals_jifs")
+write_csv(truepos_journals_jifs,"truepos_journals_jifs.csv")
     
     
     
