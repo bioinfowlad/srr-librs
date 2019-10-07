@@ -161,3 +161,5 @@ papers_table$coauthor[papers_table$title %in% nolibs$title] <- FALSE
 papers_table$intext[papers_table$title %in% nolibs$title] <- FALSE
 papers_table$librarian[papers_table$title %in% nolibs$title] <- FALSE
 
+# Export resulting table for manual editing/curation and analysis
+write.csv(papers_table,"combo_papers_table.csv")
