@@ -124,15 +124,40 @@ previous_srr <- bind_rows(previous_srr_final,previous_srr_librarians) %>%
     filter(is.na(year)==FALSE)
 
 # Import previous JIF data    
-
+# (comment out the line below if re-running code)
 truepos_journals_jifs <- left_join(truepos_journals,previous_srr,by=c("journal","year"))
 
 # Export joined data into a spreadsheet to fill the rest of the JIFs manually as we
 # don't have access to InCites API
-
+# (comment out the line below is re-running code)
 write_csv(truepos_journals_jifs,"truepos_journals_jifs.csv")
     
-    
-    
-    
-    
+# Re-import table with journals,jifs,maxRank after manually entering
+truepos_journals_jifs <- read.csv("truepos_journals_jifs.csv")
+
+## Start combining data after manual curation
+papers_table <- select(truepos_table,url,author,title,journal,year,doi)
+papers_table %<>% mutate(journal=toupper(journal),year=as.numeric(year))
+truepos_journals_jifs %<>% mutate(journal=as.character(journal))
+papers_table <- left_join(papers_table,truepos_journals_jifs,by=c("journal","year"))    
+# Extract identifier from URL
+m <- regexpr("pubmed/[0-9]+|WOS:[0-9]+",papers_table$url)
+papers_table <- mutate(papers_table,id=regmatches(url,m))
+# Output DOIs to get citation data from WoS/AMR
+write.csv(data.frame(papers_table$doi),"sr-dois.csv")
+# See https://github.com/Clarivate-SAR/wos-amr for citations script
+citations <- read.csv("sr-citation-results.csv") %>% select(doi,times.cited) %>% mutate(doi=as.character(doi))
+papers_table <- left_join(papers_table,citations,by="doi") # save a copy for testing
+# Import data as categorized by CP (bibtex exports from Endnote)
+lib_coauthor <- as.data.frame(ReadBib("lib-coauthor.txt"))
+lib_intext <- as.data.frame(ReadBib("lib-intext.txt"))
+nolibs <- as.data.frame(ReadBib("nolibs.txt"))
+# Matching by title
+papers_table$coauthor[papers_table$title %in% lib_coauthor$title] <- TRUE
+papers_table$intext[papers_table$title %in% lib_intext$title] <- TRUE
+libassist <- bind_rows(lib_coauthor,lib_intext)
+papers_table$librarian[papers_table$title %in% libassist$title] <- TRUE
+papers_table$coauthor[papers_table$title %in% nolibs$title] <- FALSE
+papers_table$intext[papers_table$title %in% nolibs$title] <- FALSE
+papers_table$librarian[papers_table$title %in% nolibs$title] <- FALSE
+

@@ -1,0 +1,556 @@
+﻿@article{RN97,
+   author = {Wallace, Douglas M. and Williams, Natasha J. and Sawyer, Amy M. and Jean-Louis, Girardin and Aloia, Mark S. and Vieira, Dorice L. and Wohlgemuth, William K.},
+   title = {Adherence to positive airway pressure treatment among minority populations in the US: A scoping review},
+   journal = {Sleep medicine reviews},
+   volume = {38},
+   pages = {56-69},
+   ISSN = {1532-2955
+1087-0792},
+   DOI = {10.1016/j.smrv.2017.04.002},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/28625480
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6459609/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6459609/pdf/nihms-949075.pdf},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN186,
+   author = {Qumseya, Bashar J. and Wani, Sachin and Desai, Madhav and Qumseya, Amira and Bain, Paul and Sharma, Prateek and Wolfsen, Herbert},
+   title = {Adverse Events After Radiofrequency Ablation in Patients With Barrett's Esophagus: A Systematic Review and Meta-analysis},
+   journal = {Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association},
+   volume = {14},
+   number = {8},
+   pages = {1086-1095.e6},
+   ISSN = {1542-7714},
+   DOI = {10.1016/j.cgh.2016.04.001},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27068041},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN340,
+   author = {Pammi, Mohan and Lal, Charitharth Vivek and Wagner, Brandie D. and Mourani, Peter M. and Lohmann, Pablo and Luna, Ruth Ann and Sisson, Amy and Shivanna, Binoy and Hollister, Emily B. and Abman, Steven H. and Versalovic, James and Connett, Gary J. and Bhandari, Vineet and Ambalavanan, Namasivayam},
+   title = {Airway Microbiome and Development of Bronchopulmonary Dysplasia in Preterm Infants: A Systematic Review},
+   journal = {The Journal of pediatrics},
+   volume = {204},
+   pages = {126-133},
+   ISSN = {1097-6833},
+   DOI = {10.1016/j.jpeds.2018.08.042},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/30297287},
+   year = {2019},
+   type = {Journal Article}
+}
+
+@article{RN131,
+   author = {Keswani, Rajesh N. and Qumseya, Bashar J. and O'Dwyer, Linda C. and Wani, Sachin},
+   title = {Association Between Endoscopist and Center Endoscopic Retrograde Cholangiopancreatography Volume With Procedure Success and Adverse Outcomes: A Systematic Review and Meta-analysis},
+   journal = {Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association},
+   volume = {15},
+   number = {12},
+   pages = {1866-1875.e3},
+   ISSN = {1542-7714},
+   DOI = {10.1016/j.cgh.2017.06.002},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/28606848},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN105,
+   author = {Scott, Kenneth A. and Rogers, Eli and Betz, Marian E. and Hoffecker, Lilian and Li, Guohua and DiGuiseppi, Carolyn},
+   title = {Associations Between Falls and Driving Outcomes in Older Adults: Systematic Review and Meta-Analysis},
+   journal = {Journal of the American Geriatrics Society},
+   volume = {65},
+   number = {12},
+   pages = {2596-2602},
+   ISSN = {1532-5415
+0002-8614},
+   DOI = {10.1111/jgs.15047},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/28873218
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729077/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729077/pdf/nihms892893.pdf},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN1,
+   author = {Sorensen, Cecilia J. and DeSanto, Kristen and Borgelt, Laura and Phillips, Kristina T. and Monte, Andrew A.},
+   title = {Cannabinoid Hyperemesis Syndrome: Diagnosis, Pathophysiology, and Treatment-a Systematic Review},
+   journal = {Journal of medical toxicology : official journal of the American College of Medical Toxicology},
+   volume = {13},
+   number = {1},
+   pages = {71-87},
+   ISSN = {1937-6995
+1556-9039},
+   DOI = {10.1007/s13181-016-0595-z},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/28000146
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5330965/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5330965/pdf/13181_2016_Article_595.pdf},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN22,
+   author = {Sachs, Katherine V. and Harnke, Ben and Mehler, Philip S. and Krantz, Mori J.},
+   title = {Cardiovascular complications of anorexia nervosa: A systematic review},
+   journal = {The International journal of eating disorders},
+   volume = {49},
+   number = {3},
+   pages = {238-248},
+   ISSN = {1098-108X},
+   DOI = {10.1002/eat.22481},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26710932
+https://onlinelibrary.wiley.com/doi/full/10.1002/eat.22481},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN27,
+   author = {Jain, Snigdha and Khera, Rohan and Girotra, Saket and Badesch, David and Wang, Zhen and Murad, Mohammad Hassan and Blevins, Amy and Schmidt, Gregory A. and Singh, Siddharth and Gerke, Alicia K.},
+   title = {Comparative Effectiveness of Pharmacologic Interventions for Pulmonary Arterial Hypertension: A Systematic Review and Network Meta-Analysis},
+   journal = {Chest},
+   volume = {151},
+   number = {1},
+   pages = {90-105},
+   ISSN = {1931-3543
+0012-3692},
+   DOI = {10.1016/j.chest.2016.08.1461},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27615023
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310124/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310124/pdf/main.pdf},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN99,
+   author = {Yang, Aaron J. and Coronado, Rogelio A. and Hoffecker, Lilian and Gao, Chan and Saurwein, Kelly and Shoreman, Danielle and Hoffberg, Adam S. and Akuthota, Venu},
+   title = {Conservative Care in Lumbar Spine Surgery Trials: A Descriptive Literature Review},
+   journal = {Archives of physical medicine and rehabilitation},
+   volume = {98},
+   number = {1},
+   pages = {165-172},
+   ISSN = {1532-821X},
+   DOI = {10.1016/j.apmr.2016.07.025},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27576191},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN136,
+   author = {Prete, Alessandro and Yan, Qi and Al-Tarrah, Khaled and Akturk, Halis K. and Prokop, Larry J. and Alahdab, Fares and Foster, Mark A. and Lord, Janet M. and Karavitaki, Niki and Wass, John A. and Murad, Mohammad H. and Arlt, Wiebke and Bancos, Irina},
+   title = {The cortisol stress response induced by surgery: A systematic review and meta-analysis},
+   journal = {Clinical endocrinology},
+   volume = {89},
+   number = {5},
+   pages = {554-567},
+   ISSN = {1365-2265},
+   DOI = {10.1111/cen.13820},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/30047158
+https://onlinelibrary.wiley.com/doi/full/10.1111/cen.13820},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN195,
+   author = {Lyon, Corey and Fields, Hannah and Langner, Shannon and DeSanto, Kristen},
+   title = {Diabetes Education and Glycemic Control},
+   journal = {American family physician},
+   volume = {97},
+   number = {4},
+   pages = {269-270},
+   ISSN = {1532-0650},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/29671523
+https://www.aafp.org/afp/2018/0215/p269.pdf},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN292,
+   author = {Lumba-Brown, Angela and Yeates, Keith Owen and Sarmiento, Kelly and Breiding, Matthew J. and Haegerich, Tamara M. and Gioia, Gerard A. and Turner, Michael and Benzel, Edward C. and Suskauer, Stacy J. and Giza, Christopher C. and Joseph, Madeline and Broomand, Catherine and Weissman, Barbara and Gordon, Wayne and Wright, David W. and Moser, Rosemarie Scolaro and McAvoy, Karen and Ewing-Cobbs, Linda and Duhaime, Ann-Christine and Putukian, Margot and Holshouser, Barbara and Paulk, David and Wade, Shari L. and Herring, Stanley A. and Halstead, Mark and Keenan, Heather T. and Choe, Meeryo and Christian, Cindy W. and Guskiewicz, Kevin and Raksin, P. B. and Gregory, Andrew and Mucha, Anne and Taylor, H. Gerry and Callahan, James M. and DeWitt, John and Collins, Michael W. and Kirkwood, Michael W. and Ragheb, John and Ellenbogen, Richard G. and Spinks, T. J. and Ganiats, Theodore G. and Sabelhaus, Linda J. and Altenhofen, Katrina and Hoffman, Rosanne and Getchius, Tom and Gronseth, Gary and Donnell, Zoe and O'Connor, Robert E. and Timmons, Shelly D.},
+   title = {Diagnosis and Management of Mild Traumatic Brain Injury in Children: A Systematic Review},
+   journal = {JAMA pediatrics},
+   volume = {172},
+   number = {11},
+   pages = {e182847-e182847},
+   ISSN = {2168-6211},
+   DOI = {10.1001/jamapediatrics.2018.2847},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/30193325
+https://jamanetwork.com/journals/jamapediatrics/articlepdf/2698455/jamapediatrics_lumbabrown_2018_rv_180002.pdf},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN459,
+   author = {Qumseya, B. J. and Wani, S. and Gendy, S. and Harnke, B. and Bergman, J. J. and Wolfsen, H.},
+   title = {Disease Progression in Barrett's Low-Grade Dysplasia With Radiofrequency Ablation Compared With Surveillance: Systematic Review and Meta-Analysis},
+   journal = {American Journal of Gastroenterology},
+   volume = {112},
+   number = {6},
+   pages = {849-865},
+   ISSN = {0002-9270},
+   DOI = {10.1038/ajg.2017.70},
+   url = {<Go to ISI>://WOS:000402710000011},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN58,
+   author = {Karmali, Kunal N. and Lloyd-Jones, Donald M. and Berendsen, Mark A. and Goff, David C., Jr. and Sanghavi, Darshak M. and Brown, Nina C. and Korenovska, Liliya and Huffman, Mark D.},
+   title = {Drugs for Primary Prevention of Atherosclerotic Cardiovascular Disease: An Overview of Systematic Reviews},
+   journal = {JAMA cardiology},
+   volume = {1},
+   number = {3},
+   pages = {341-349},
+   ISSN = {2380-6591
+2380-6583},
+   DOI = {10.1001/jamacardio.2016.0218},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27438118
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5053397/
+https://jamanetwork.com/journals/jamacardiology/articlepdf/2517393/jamacardiology_karmali_2016_rv_160003.pdf},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN335,
+   author = {Hipwell, Alison E. and Kahn, Linda G. and Factor-Litvak, Pam and Porucznik, Christina A. and Siegel, Eva L. and Fichorova, Raina N. and Hamman, Richard F. and Klein-Fedyshin, Michele and Harley, Kim G. and program collaborators for Environmental influences on Child Health, Outcomes},
+   title = {Exposure to non-persistent chemicals in consumer products and fecundability: a systematic review},
+   journal = {Human reproduction update},
+   volume = {25},
+   number = {1},
+   pages = {51-71},
+   ISSN = {1460-2369
+1355-4786},
+   DOI = {10.1093/humupd/dmy032},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/30307509
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6295794/
+https://watermark.silverchair.com/dmy032.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAoswggKHBgkqhkiG9w0BBwagggJ4MIICdAIBADCCAm0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMuCCagah7cpeMxLmjAgEQgIICPnBkgYGaypwNya2Ge_9O0Ljio4nxXatHNjst1S5ktr1dZiRGX7uwrtpajam4cxpcP1rhOCYYyZGBXTbdoYpHiT-b_RNyQIFk-vvboacTCp8OmuQmFpL8N3QPjxE7QGanDjADMtTCPcd0JVoSSMDyKxfW52CBD-CXDPG3CEmPcE6BtIPE45ndvCmM2Nj4R3bxtl-_8ySUDfIZWgzUv7nCE5LkGD-ME29496FYXBpleXvaB51bVhbWB9JW8aI-iJq5teiStXjmgxhf1HRdTGk-_tWv3Ow6G-9xhZUMb-g-iwtiD5glAr5fxMwSFjemUrRvVFTtMKpcbUDwJ4hscK4YWdkHVFn1zfCxLsgKmdobTLEkKlwKdd5smlWdKWjAMqX_9ieuHNhzwK-3sAspxHk1hGBgwmn-GjpsnRSBQZxemFsIe947TTpvDWX1zyLZFOybX52uDgzcN8xys464wV5y8DJhsLq637_i0-9heNNHm_es9OMDCSQFsTBhee7cseAFsxoeiW1PFkZ_4AQJX1pzA7VUR8_T1X4w8HGDz2_2NUgUj2WoUh8jtwZajIAN3P61ouFYZMWT-ZGrFnp8KQNXc2WLkZWwzK5ocPw5KBWye-2y4CTrtRWOFlI7DYkCDQ1-uIema1CQKMJ9hVCyXf50wELTm4LHFUVNQ-Qq7M9oMcYAeHT1kpG5p_aItvaYzbC4psY7_3GfQkNoOPwGBUrvCtOywbqnzaU9CE73omPy2YLxTlK7bHrWR9gHHdfLkis},
+   year = {2019},
+   type = {Journal Article}
+}
+
+@article{RN286,
+   author = {Breathett, Khadijah and Jones, Jacqueline and Lum, Hillary D. and Koonkongsatian, Dawn and Jones, Christine D. and Sanghvi, Urvi and Hoffecker, Lilian and McEwen, Marylyn and Daugherty, Stacie L. and Blair, Irene V. and Calhoun, Elizabeth and de Groot, Esther and Sweitzer, Nancy K. and Peterson, Pamela N.},
+   title = {Factors Related to Physician Clinical Decision-Making for African-American and Hispanic Patients: a Qualitative Meta-Synthesis},
+   journal = {Journal of racial and ethnic health disparities},
+   volume = {5},
+   number = {6},
+   pages = {1215-1229},
+   ISSN = {2196-8837
+2197-3792},
+   DOI = {10.1007/s40615-018-0468-z},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/29508374
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6123298/
+https://link.springer.com/article/10.1007%2Fs40615-018-0468-z},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN184,
+   author = {Chapman, Brandon C. and Moore, Hunter B. and Overbey, Douglas M. and Morton, Alex P. and Harnke, Ben and Gerich, Mark E. and Vogel, Jon D.},
+   title = {Fecal microbiota transplant in patients with Clostridium difficile infection: A systematic review},
+   journal = {The journal of trauma and acute care surgery},
+   volume = {81},
+   number = {4},
+   pages = {756-764},
+   ISSN = {2163-0763},
+   DOI = {10.1097/TA.0000000000001195},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27648772},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN426,
+   author = {Majowicz, S. E. and Scallan, E. and Jones-Bitton, A. and Sargeant, J. M. and Stapleton, J. and Angulo, F. J. and Yeung, D. H. and Kirk, M. D.},
+   title = {Global Incidence of Human Shiga Toxin-Producing Escherichia coli Infections and Deaths: A Systematic Review and Knowledge Synthesis},
+   journal = {Foodborne Pathogens and Disease},
+   volume = {11},
+   number = {6},
+   pages = {447-455},
+   ISSN = {1535-3141},
+   DOI = {10.1089/fpd.2013.1704},
+   url = {<Go to ISI>://WOS:000337177400005
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4607253/pdf/nihms728381.pdf},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN130,
+   author = {Heckman, George A. and Shamji, Alyana Karim and Ladha, Raisa and Stapleton, Jackie and Boscart, Veronique and Boxer, Rebecca S. and Martin, Lora Bruyn and Crutchlow, Lauren and McKelvie, Robert S.},
+   title = {Heart Failure Management in Nursing Homes: A Scoping Literature Review},
+   journal = {The Canadian journal of cardiology},
+   volume = {34},
+   number = {7},
+   pages = {871-880},
+   ISSN = {1916-7075},
+   DOI = {10.1016/j.cjca.2018.04.006},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/29960616},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN268,
+   author = {Sterling, Madeline R. and Shaw, Amy L. and Leung, Peggy Bk and Safford, Monika M. and Jones, Christine D. and Tsui, Emma K. and Delgado, Diana},
+   title = {Home care workers in heart failure: a systematic review},
+   journal = {Journal of multidisciplinary healthcare},
+   volume = {11},
+   pages = {481-492},
+   ISSN = {1178-2390},
+   DOI = {10.2147/JMDH.S175512},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/30288046
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6161732/
+https://www.dovepress.com/getfile.php?fileID=44718},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN158,
+   author = {Yeatman, Sara and Eaton, Jeffrey W. and Beckles, Zosia and Benton, Lorna and Gregson, Simon and Zaba, Basia},
+   title = {Impact of ART on the fertility of HIV-positive women in sub-Saharan Africa},
+   journal = {Tropical medicine & international health : TM & IH},
+   volume = {21},
+   number = {9},
+   pages = {1071-1085},
+   ISSN = {1365-3156},
+   DOI = {10.1111/tmi.12747},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27371942
+http://spiral.imperial.ac.uk/bitstream/10044/1/34377/4/Yeatman_et_al-2016-Tropical_Medicine_%26_International_Health.pdf},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN26,
+   author = {Davidson, Karina W. and Shaffer, Jonathan and Ye, Siqin and Falzon, Louise and Emeruwa, Iheanacho O. and Sundquist, Kevin and Inneh, Ifeoma A. and Mascitelli, Susan L. and Manzano, Wilhelmina M. and Vawdrey, David K. and Ting, Henry H.},
+   title = {Interventions to improve hospital patient satisfaction with healthcare providers and systems: a systematic review},
+   journal = {BMJ quality & safety},
+   volume = {26},
+   number = {7},
+   pages = {596-606},
+   ISSN = {2044-5423
+2044-5415},
+   DOI = {10.1136/bmjqs-2015-004758},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27488124
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5290224/
+https://qualitysafety.bmj.com/content/qhc/26/7/596.full.pdf},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN445,
+   author = {Oman, K. S. and Fink, R. and Kleinen, C. and Makic, M. B. F. and Wenger, B. and Hoffecker, L. and Mancuso, M. and Schmiege, S. and Cook, P.},
+   title = {Intradermal Lidocaine or Bacteriostatic Normal Saline to Decrease Pain Before Intravenous Catheter Insertion: A Meta-Analysis},
+   journal = {Journal of Perianesthesia Nursing},
+   volume = {29},
+   number = {5},
+   pages = {367-376},
+   ISSN = {1089-9472},
+   DOI = {10.1016/j.jopan.2013.12.008},
+   url = {<Go to ISI>://WOS:000343021600006},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN440,
+   author = {Noshchenko, A. and Hoffecker, L. and Lindley, E. M. and Burger, E. L. and Cain, C. M. J. and Patel, V. V.},
+   title = {Long-term Treatment Effects of Lumbar Arthrodeses in Degenerative Disk Disease A Systematic Review With Meta-Analysis},
+   journal = {Journal of Spinal Disorders & Techniques},
+   volume = {28},
+   number = {9},
+   pages = {E493-E521},
+   ISSN = {1536-0652},
+   DOI = {10.1097/bsd.0000000000000124},
+   url = {<Go to ISI>://WOS:000364286200001},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN258,
+   author = {Hines, Brittany T. and Rank, Matthew A. and Wright, Benjamin L. and Marks, Lisa A. and Hagan, John B. and Straumann, Alex and Greenhawt, Matthew and Dellon, Evan S.},
+   title = {Minimally invasive biomarker studies in eosinophilic esophagitis: A systematic review},
+   journal = {Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology},
+   volume = {121},
+   number = {2},
+   pages = {218-228},
+   ISSN = {1534-4436
+1081-1206},
+   DOI = {10.1016/j.anai.2018.05.005},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/29753832
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6104633/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6104633/pdf/nihms-979953.pdf},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN14,
+   author = {Sepulveda, Antonia R. and Hamilton, Stanley R. and Allegra, Carmen J. and Grody, Wayne and Cushman-Vokoun, Allison M. and Funkhouser, William K. and Kopetz, Scott E. and Lieu, Christopher and Lindor, Noralane M. and Minsky, Bruce D. and Monzon, Federico A. and Sargent, Daniel J. and Singh, Veena M. and Willis, Joseph and Clark, Jennifer and Colasacco, Carol and Rumble, R. Bryan and Temple-Smolkin, Robyn and Ventura, Christina B. and Nowak, Jan A.},
+   title = {Molecular Biomarkers for the Evaluation of Colorectal Cancer: Guideline From the American Society for Clinical Pathology, College of American Pathologists, Association for Molecular Pathology, and the American Society of Clinical Oncology},
+   journal = {Journal of clinical oncology : official journal of the American Society of Clinical Oncology},
+   volume = {35},
+   number = {13},
+   pages = {1453-1486},
+   ISSN = {1527-7755},
+   DOI = {10.1200/JCO.2016.71.9807},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/28165299},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN193,
+   author = {Goins, R. Turner and Jones, Jacqueline and Schure, Marc and Rosenberg, Dori E. and Phelan, Elizabeth A. and Dodson, Sherry and Jones, Dina L.},
+   title = {Older Adults' Perceptions of Mobility: A Metasynthesis of Qualitative Studies},
+   journal = {The Gerontologist},
+   volume = {55},
+   number = {6},
+   pages = {929-942},
+   ISSN = {1758-5341},
+   DOI = {10.1093/geront/gnu014},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24637252
+https://watermark.silverchair.com/gnu014.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAApUwggKRBgkqhkiG9w0BBwagggKCMIICfgIBADCCAncGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMa5OarO-rZ2qfgqE0AgEQgIICSOlPkHcEgjk4vS2etyLyPepisfS6F12bzZaOtH1EAtYoYNG7CNi9ynawpt1k02aC5qT4oqsvpBD4Pcx46eiBaAcOCH5AKFFAM_Rbv0wMw1oXB26rTA1_0YFaJTnsCPgvwUgzrmm5wwbhZN2FPxNtLeDKO87x9PNWMqFeawBOnv2cibdP3V71lk0wYXQMvGjFIAF4lZ3MjBldPGNWdYt14DapgDTiWHBLo1sbDIfaM7ZNossV_sQQILvnfm8aHgUzJw2LhzZDcyNSsvP8gMCH5sHv80msPfqSbquyKyilUo-3S4YIm2a8fMpAYtRdVZ6Q60JrNoIQ-bfkXHK2kSsIxslM4sXPp3jZqfloT2K4ELjHIZcblx1bBKI9jYMlcCORHZRAResf-pF0N6TW32tpVINJupnpHxc4ZQQbRZyD5EeB8ojwMtF9eKm4G5s4u7A_qTqEdx2Y7Sc4RGnktupx9VRJXYcvJ6jiyrSkpB2PuVi4cQPxryEoIJ8mrc3G8ymb_ERR2EOSxWNE8s3f_IefSSudROYEadXybxBLWeoeoGdM_bY78zD74lXRmxJCNHio1qQb3py2HXMDIWY1vygX3j_pApNSr7w89yI0af70DyYphuf8Ouzf7MwneHQEvrhJAc39jFBgOEqgHV40b6XFMXcm-qizdB5iw5OJFvSQ-ocSu-4kPH7taiw0U_5KTzktrhHxbkjzwXdz5sqzvQjzZv47JAdTTuAIVGBs8alaRInXHj8sN35DD4d-vq6YjP8cL75ycR3QTarJ},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN12,
+   author = {Frank, Joseph W. and Lovejoy, Travis I. and Becker, William C. and Morasco, Benjamin J. and Koenig, Christopher J. and Hoffecker, Lilian and Dischinger, Hannah R. and Dobscha, Steven K. and Krebs, Erin E.},
+   title = {Patient Outcomes in Dose Reduction or Discontinuation of Long-Term Opioid Therapy: A Systematic Review},
+   journal = {Annals of internal medicine},
+   volume = {167},
+   number = {3},
+   pages = {181-191},
+   ISSN = {1539-3704},
+   DOI = {10.7326/M17-0598},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/28715848
+https://watermark.silverchair.com/aime201708010-m170598.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAgowggIGBgkqhkiG9w0BBwagggH3MIIB8wIBADCCAewGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMQ_72Ln-LEyDOfI3vAgEQgIIBvX3cP9vwDfcwRHrP9mcXG9nKFF0K036u_HcmLkSIUShOyA5fKwyHmV6i46OTxz4N1Glg0_JlIfKzvUOnpYFTV2BD7aih4OLAIcMzzAVINF7fcierhrxj37JOMhBdtWk4DD96Cxqle9DzE8pv9LvWxvkhwb9l76zCXHZ2sDRt1dirdSwd_u2-hM4eof1O17TJCCAwBLsAA_5IY93_uzywn3ESrbJ9JkiM5U9kNhUW2xKkI3efzIZfhbsRhvaIr7Qw1uNpV61XpATnEjQ8SNB2YpEUlU1GyGwBG1uOptrdgBOHkfuvqkdIfmK2s1u3qQXTEevHBafHtohSkJwMEIS9jGqkgCviQzk_ogBpEh7EF_RCWR64mHsS4oxAEVxbq8lfwgHIBS-3hTRJub2W3by7BVjSDOQcW9_lyLmxJwFHjZTvyPxbHbbeZYXPSj0rBjW5p7-yduGFNKKWVl0FJX8zN5ECj56ha814Z9EydymPomJwjVUh1Nxg1Mbuwnm177Tib-r46BSw86Ax5CsxH62ov8i_OIrxt5f0UAViqt6qdupwczM6_5dhI8v7hg2spCS_a8ta-3HeMfWyHMy1nFA},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN149,
+   author = {Somes, Elizabeth and Dukes, Joanna and Brungardt, Adreanne and Jordan, Sarah and DeSanto, Kristen and Jones, Christine D. and Sanghvi, Urvi Jhaveri and Breathett, Khadijah and Jones, Jacqueline and Lum, Hillary D.},
+   title = {Perceptions of trained laypersons in end-of-life or advance care planning conversations: a qualitative meta-synthesis},
+   journal = {BMC palliative care},
+   volume = {17},
+   number = {1},
+   pages = {98-119},
+   ISSN = {1472-684X},
+   DOI = {10.1186/s12904-018-0354-9},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/30081957
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6080535/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6080535/pdf/12904_2018_Article_354.pdf},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN174,
+   author = {Nedelec, Bernadette and Parry, Ingrid and Acharya, Hernish and Benavides, Lynne and Bills, Sara and Bucher, Janelle L. and Cheal, Joanne and Chouinard, Annick and Crump, Donna and Duch, Sarah and Godleski, Matthew and Guenther, Jennifer and Knox, Catherine and LaBonte, Eric and Lorello, David and Lucio, J. Xavier and Macdonald, Lori E. and Kemp-Offenberg, Jennifer and Osborne, Candice and Pontius, Kara and Yelvington, Miranda and de Oliveira, Ana and Kloda, Lorie A.},
+   title = {Practice Guidelines for Cardiovascular Fitness and Strengthening Exercise Prescription After Burn Injury},
+   journal = {Journal of burn care & research : official publication of the American Burn Association},
+   volume = {37},
+   number = {6},
+   pages = {e539-e558},
+   ISSN = {1559-0488},
+   DOI = {10.1097/BCR.0000000000000282},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26284636
+https://watermark.silverchair.com/01253092-201611000-00015.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAqIwggKeBgkqhkiG9w0BBwagggKPMIICiwIBADCCAoQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM6AUGhSpFro9V69LZAgEQgIICVXa19ERU8goPaXHPw5Bg-Ud3nQYsfnXrXbEGl1-F0aAvyFkXl9UisyjAG3w-WwNDg27h1OzI73bJWZfd0iSgmVbnWvRMrOog8pHv_WHiBZco0Q3817hX_rvNZ6bB6lFREMdZtC9n5yJIWplHFYSW3_kcy6jJUrdkyCtgq1-uElbdOJKqOsjqdGuGGhoKTaT2bDA9NmirSwZPAwbYG43QxJXGjykcpngfqdX7r6M9dHSiY5gZeddR9gQumJx2i-1uobU3vnD4aG6eNwL0Zc7K2s-U5WurG9jtn_nMiXxhB_8k3kdP1fxrd-J1yYpI2ag4bBW2r1YccI1IbWAf2EfQqJ955Hqv3hY-0bqJxEDs0bSuA3xqyJ8tkVxQD0QscuMEkzcVpQyx_Ovr1oO-21I7KGApid20N7hce6voV-h6dXN3IJKqWY8oGvh0RM5vyEklqXgIxWO8G_L_0bIUlof5SBMGpBbnrRqAv-TOKAOOLgy5J5Qce5oXKuo9B0Mb7Vlt7jg1QhjhFNpzP4plth7dQYAfEm9fGN9yIulydA-kY6XO27zs-suRdH3mhirWlH6UGhDJR2flqTeHWJjxLZJTT83C_RPrRk9lIgJLdMXe9xzntjTAJq_YfFuvliz-m2PQsDoLgpfZp1sYaYa_aE4xrTtEg55Ia2LKp5U5tF8gvL3Y_nMIU9o0wSMa7vtPsu44K1Yc5wz1GudU8B_F8u4tPog4s4X62-x55ZtVqJrPyrW0XOs8_ryw9AGI4jH4rDR4kK-gEPNDsNzliV2plrYE9UrIggltHw},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN323,
+   author = {Noshchenko, Andriy and Hoffecker, Lilian and Lindley, Emily M. and Burger, Evalina L. and Cain, Christopher Mj and Patel, Vikas V. and Bradford, Andrew P.},
+   title = {Predictors of spine deformity progression in adolescent idiopathic scoliosis: A systematic review with meta-analysis},
+   journal = {World journal of orthopedics},
+   volume = {6},
+   number = {7},
+   pages = {537-558},
+   ISSN = {2218-5836},
+   DOI = {10.5312/wjo.v6.i7.537},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26301183
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4539477/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4539477/pdf/WJO-6-537.pdf},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN333,
+   author = {Thorne, Nichole B. and Soderborg, Taylor K. and Glover, Jacqueline J. and Hoffecker, Lilian and Guiahi, Maryam},
+   title = {Reproductive Health Care in Catholic Facilities: A Scoping Review},
+   journal = {Obstetrics and gynecology},
+   volume = {133},
+   number = {1},
+   pages = {105-115},
+   ISSN = {1873-233X},
+   DOI = {10.1097/AOG.0000000000003029},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/30531578},
+   year = {2019},
+   type = {Journal Article}
+}
+
+@article{RN439,
+   author = {Noshchenko, A. and Hoffecker, L. and Cain, C. M. J. and Patel, V. V. and Burger, E. L.},
+   title = {Spinopelvic Parameters in Asymptomatic Subjects Without Spine Disease and Deformity A Systematic Review With Meta-Analysis},
+   journal = {Clinical Spine Surgery},
+   volume = {30},
+   number = {9},
+   pages = {392-403},
+   ISSN = {2380-0186},
+   url = {<Go to ISI>://WOS:000417429200025},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN71,
+   author = {Reno, Elaine and Brown, Talia L. and Betz, Marian E. and Allen, Michael H. and Hoffecker, Lilian and Reitinger, Jeremy and Roach, Robert and Honigman, Benjamin},
+   title = {Suicide and High Altitude: An Integrative Review},
+   journal = {High altitude medicine & biology},
+   volume = {19},
+   number = {2},
+   pages = {99-108},
+   ISSN = {1557-8682},
+   DOI = {10.1089/ham.2016.0131},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/29161114},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN55,
+   author = {Wieland, A. and Frank, D. N. and Harnke, B. and Bambha, K.},
+   title = {Systematic review: microbial dysbiosis and nonalcoholic fatty liver disease},
+   journal = {Alimentary pharmacology & therapeutics},
+   volume = {42},
+   number = {9},
+   pages = {1051-1063},
+   ISSN = {1365-2036},
+   DOI = {10.1111/apt.13376},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26304302
+https://onlinelibrary.wiley.com/doi/full/10.1111/apt.13376},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN116,
+   author = {Ozkaynak, Mustafa and Reeder, Blaine and Hoffecker, Lilian and Makic, Mary Beth and Sousa, Karen},
+   title = {Use of Electronic Health Records by Nurses for Symptom Management in Inpatient Settings: A Systematic Review},
+   journal = {Computers, informatics, nursing : CIN},
+   volume = {35},
+   number = {9},
+   pages = {465-472},
+   ISSN = {1538-9774},
+   DOI = {10.1097/CIN.0000000000000329},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/28240616},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN95,
+   author = {Huberty, Jennifer L. and Matthews, Jeni and Leiferman, Jenn and Hermer, Janice and Cacciatore, Joanne},
+   title = {When a Baby Dies: A Systematic Review of Experimental Interventions for Women After Stillbirth},
+   journal = {Reproductive sciences (Thousand Oaks, Calif.)},
+   volume = {24},
+   number = {7},
+   pages = {967-975},
+   ISSN = {1933-7205},
+   DOI = {10.1177/1933719116670518},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27688245},
+   year = {2017},
+   type = {Journal Article}
+}
+
