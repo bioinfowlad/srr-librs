@@ -106,7 +106,14 @@ t.test(JIF_auth,JIF_nonlib) # p-value = 0.2339
 t.test(RANK_auth,RANK_nonlib) # p-value = 0.061
 t.test(CIT_auth,CIT_nonlib) # p-value = 0.2991
 
+# Wilcoxon
+wilcox.test(as.numeric(unlist(JIF_lib)),as.numeric(unlist(JIF_nonlib))) # p-value = 0.038
+wilcox.test(as.numeric(unlist(RANK_lib)),as.numeric(unlist(RANK_nonlib))) # p-value = 0.00458
+wilcox.test(as.numeric(unlist(CIT_lib)),as.numeric(unlist(CIT_nonlib))) # p-value = 0.8387
 
+wilcox.test(as.numeric(unlist(JIF_auth)),as.numeric(unlist(JIF_nonlib))) # p-value = 0.1323
+wilcox.test(as.numeric(unlist(RANK_auth)),as.numeric(unlist(RANK_nonlib))) # p-value = 0.08859
+wilcox.test(as.numeric(unlist(CIT_auth)),as.numeric(unlist(CIT_nonlib))) # p-value = 0.7282
 
 
 
