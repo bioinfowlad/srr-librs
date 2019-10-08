@@ -115,23 +115,34 @@ cithist <- ggplot(data=(srr_dataset %>% filter(librarian==FALSE)),aes(times.cite
 ## Box-plots Lib versus NoLib
 libscale <- c("#215297","#BE5039")
 jifbox <- ggplot(srr_dataset %>% filter(librarian != "NA"),aes(factor(librarian),JIF)) +
-    geom_jitter(width=0.15,alpha=0.5) +
+    geom_jitter(width=0.15,alpha=0.4,size=5,color="#5A5955") +
     geom_boxplot(outlier.shape=NA,alpha=0.8,colour="black",fill=libscale) +
     theme_minimal() +
-    ggtitle("Journal Impact Factor versus Librarian Involvement") +
-    xlab("Librarian Involved?")
+    ggtitle("Journal Impact Factors") +
+    xlab("Librarian Involved?") +
+    theme(plot.title = element_text(size=28,face="bold",hjust=0.5),
+          axis.text = element_text(size=18),
+          axis.title = element_text(size=22,face="bold"))
 rankbox <- ggplot(srr_dataset %>% filter(librarian != "NA"),aes(factor(librarian),maxRank)) +
-    geom_jitter(width=0.15,alpha=0.5) +
+    geom_jitter(width=0.15,alpha=0.4,size=5,color="#5A5955") +
     geom_boxplot(outlier.shape=NA,alpha=0.8,colour="black",fill=libscale) +
     theme_minimal() +
-    ggtitle("Journal Category Rank versus Librarian Involvement") +
-    xlab("Librarian Involved?")
+    ggtitle("Journal Category Rank (percentile)") +
+    xlab("Librarian Involved?") + 
+    theme(plot.title = element_text(size=28,face="bold",hjust=0.5),
+          axis.text = element_text(size=18),
+          axis.title = element_text(size=22,face="bold"))
+
 citbox <- ggplot(srr_dataset %>% filter(librarian != "NA"),aes(factor(librarian),times.cited)) +
-    geom_jitter(width=0.15,alpha=0.5) +
+    geom_jitter(width=0.15,alpha=0.4,size=5,color="#5A5955") +
     geom_boxplot(outlier.shape=NA,alpha=0.8,colour="black",fill=libscale) +
     theme_minimal() +
-    ggtitle("Number of Citations versus Librarian Involvement") +
-    xlab("Librarian Involved?")
+    ggtitle("Number of Citations") +
+    xlab("Librarian Involved?") +
+    theme(plot.title = element_text(size=28,face="bold",hjust=0.5),
+          axis.text = element_text(size=18),
+          axis.title = element_text(size=22,face="bold"))
+
 
 ## Prep for auth vs intext-only comparisons
 authscale <- c("#357A7A","#713F7E")
@@ -162,6 +173,49 @@ citauthbox <- ggplot(srr_dataset %>% filter(librarian == TRUE),aes(libtype,times
     ggtitle("Number of Citations versus Librarian Involvement") +
     xlab("Librarian Involvement")
 
+## Make some proper density plots
+jifdense <- ggplot(data=(srr_dataset %>% filter(librarian != "NA")),
+                   aes(x=JIF,fill=librarian)) +
+             geom_density(alpha=0.7) +
+             scale_fill_manual("",values=libscale) +
+            theme_minimal() +
+            ggtitle("Journal Impact Factors in Dataset")+
+            xlab("JIF")+
+            ylab("Density")+
+            theme(legend.position = "none",
+                  plot.title = element_text(size=28,face="bold",hjust=0.5),
+                  axis.title = element_text(size=22,face="bold")) +
+    annotate("text",x=30,y=0.15,label="No Librarian",colour="#215297",size=7) +
+    annotate("text",x=30,y=0.12,label="Librarian",colour="#BE5039",size=7)
+
+rankdense <- ggplot(data=(srr_dataset %>% filter(librarian != "NA")),
+                   aes(x=maxRank,fill=librarian)) +
+    geom_density(alpha=0.7) +
+    scale_fill_manual("",values=libscale) +
+    theme_minimal() +
+    ggtitle("Journal Category Rankings in Dataset")+
+    xlab("Category Rank Percentile")+
+    ylab("Density")+
+    theme(legend.position = "none",
+          plot.title = element_text(size=26,face="bold"),
+          axis.title = element_text(size=22,face="bold")) +
+    annotate("text",x=25,y=0.02,label="No Librarian",colour="#215297",size=7) +
+    annotate("text",x=25,y=0.018,label="Librarian",colour="#BE5039",size=7)
+
+citdense <- ggplot(data=(srr_dataset %>% filter(librarian != "NA")),
+                    aes(x=times.cited,fill=librarian)) +
+    geom_density(alpha=0.7) +
+    scale_fill_manual("",values=libscale) +
+    theme_minimal() +
+    ggtitle("Citation Numbers in Dataset")+
+    xlab("Times Cited")+
+    ylab("Density")+
+    theme(legend.position = "none",
+          plot.title = element_text(size=26,face="bold",hjust=0.5),
+          axis.title = element_text(size=22,face="bold")) +
+    annotate("text",x=150,y=0.02,label="No Librarian",colour="#215297",size=7) +
+    annotate("text",x=150,y=0.017,label="Librarian",colour="#BE5039",size=7)
+                  
 # Let's do some t-tests (lib versus nonlib)
 JIF_lib <- srr_dataset %>% filter(librarian=="TRUE") %>% select(JIF)
 JIF_nonlib <- srr_dataset %>% filter(librarian=="FALSE") %>% select(JIF)
@@ -180,7 +234,7 @@ wilcox.test(as.numeric(unlist(JIF_lib)),as.numeric(unlist(JIF_nonlib)),alt="two.
 wilcox.test(as.numeric(unlist(RANK_lib)),as.numeric(unlist(RANK_nonlib)),alt="two.sided") # p-value = 0.00458
 wilcox.test(as.numeric(unlist(CIT_lib)),as.numeric(unlist(CIT_nonlib)),alt="two.sided") # p-value = 0.8387
 
-# Let's do some t-tests (auth versus nonauth)
+# Let's do some more t-tests (auth versus nonauth)
 JIF_auth <- srr_dataset %>% filter(coauthor=="TRUE") %>% select(JIF)
 JIF_nonauth <- srr_dataset %>% filter(coauthor=="FALSE") %>% select(JIF)
 JIF_intext <- srr_dataset %>% filter(intext=="TRUE") %>% select(JIF)
